@@ -41,18 +41,11 @@
         }
 
         function openEmail(e) {
-            e.preventDefault();
-            var subject = 'Job Opportunity';
-            var body    = 'Hi Vera,\n\n'
-                        + 'I came across your profile and would love to discuss a potential opportunity.\n\n'
-                        + "Here's a bit about the role:\n\n"
-                        + '[Your message here]\n\n'
-                        + 'Looking forward to hearing from you,\n'
-                        + '[Your name]';
-            window.location.href = 'mailto:tumanovavd@gmail.com'
-                + '?subject=' + encodeURIComponent(subject)
-                + '&body='    + encodeURIComponent(body);
-        }
+    e.preventDefault();
+    var subject = 'Job Opportunity';
+    window.location.href = 'mailto:tumanovavd@gmail.com'
+        + '?subject=' + encodeURIComponent(subject);
+}
     </script>
 </head>
 <body>
