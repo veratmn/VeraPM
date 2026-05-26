@@ -303,7 +303,7 @@ body {
 
 .stat-value {
     display: block;
-    font-size: 1rem;
+    font-size: 0.93rem;
     font-weight: 700;
     color: #111111;
 }
